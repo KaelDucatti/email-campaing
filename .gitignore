@@ -1,0 +1,125 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+build/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+coverage.html
+*.coverprofile
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Debug files
+debug
+__debug_bin
+
+# Logs
+*.log
+logs/
+tmp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with secrets
+config.local.yml
+config.local.yaml
+secrets.yml
+secrets.yaml
+
+# Docker volumes
+postgres_data/
+keycloak_data/
+prometheus_data/
+grafana_data/
+
+# Temporary files
+*.tmp
+temp/
+.temp/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Go sum backup
+go.sum.backup
+
+# Air live reload
+tmp/
+.air.toml.local
+
+# Testing
+testdata/output/
+.test/
+
+# Migration tool state
+*.migration.lock
+
+# SSL/TLS certificates (keep templates, ignore generated certs)
+*.key
+*.crt
+*.pem
+!*-template.key
+!*-template.crt
+!*-template.pem
+
+# Build artifacts
+*.tar.gz
+*.zip
+
+# Documentation build artifacts
+site/
+docs/_build/
+
+# Local scripts
+scripts/local/
+*.local.sh
+
+# Profiling files
+*.prof
+*.trace
+
+# Email templates with sensitive data
+templates/production/
+
+# Mock files generated during tests
+*_mock.go
+mocks/
